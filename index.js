@@ -22,6 +22,4 @@ app.get('/api/valheim', (req, res) => {
     res.status(200).send(data)
 })
 
-console.log(data);
-
 app.listen(PORT)
