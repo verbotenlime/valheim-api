@@ -1,6 +1,7 @@
 [
 	{
-		"name": "Eikthyr",
+		"id": "eikthyr",
+        "name": "Eikthyr",
         "description": "His antlers are branches of iron, they crack the rocks and bring down mountains. His hooves are the sound of thunder. His voice a howling gale.",
         "faction": "Boss",
         "biome": "Meadows",
@@ -21,7 +22,8 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "The Elder",
+		"id": "the-elder",
+        "name": "The Elder",
         "description": "First of the Forest, King-in-the-Wood, Lord over those who dwell at his feet. His roots will grow where cities once stood, their blood his wine, their flesh his meat.",
         "faction": "Boss",
         "biome": "Black Forest",
@@ -42,7 +44,8 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/5/55/The_Elder.png/revision/latest/scale-to-width-down/350?cb=20220213042753"
 	},
 	{
-		"name": "Bonemass",
+		"id": "bonemass",
+        "name": "Bonemass",
         "description": "Wanderer, look to your feet, that tread upon our tomb. One thousand bones without their meat, will drag you to your doom.",
         "faction": "Boss",
         "biome": "Swamp",
@@ -63,7 +66,8 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/a/a8/Bonemass_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213061028"
 	},
 	{
-		"name": "Moder",
+		"id": "moder",
+        "name": "Moder",
         "description": "Black wings across the moon and sun, down from the mountain our mother comes. Her weeping tears will fall like rain, her voice will call us home again.",
         "faction": "Boss",
         "biome": "Mountain",
@@ -84,7 +88,8 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/9/9d/Modor.png/revision/latest/scale-to-width-down/350?cb=20220213072216"
 	},
 	{
-		"name": "Yagluth",
+		"id": "yagluth",
+        "name": "Yagluth",
         "description": "Long ages past, he wore a crown, beneath a blood-red sky. Now naught is left of all he was, but his spirit cannot die.",
         "faction": "Boss",
         "biome": "Plains",
@@ -105,7 +110,8 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/1/13/Yagluth_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213081728"
 	},
 	{
-		"name": "The Queen",
+		"id": "the-queen",
+        "name": "The Queen",
         "description": "Born in armour, mother of many, Queen without crown, ruler beneath.",
         "faction": "Boss",
         "biome": "Mistlands",

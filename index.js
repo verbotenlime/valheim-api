@@ -29,7 +29,7 @@ app.get('/api/boss', (req, res) => {
 app.get('/api/boss/:name', (req, res) => {
 	const boss = req.params.name
 	const query = data.find(element => {
-		return element.name === boss
+		return element.id === boss
 	})
 	res.status(200).send(query)
 	return
