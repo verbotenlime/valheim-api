@@ -10,18 +10,36 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 const corsOptions = {
-    origin: '*',
-    credentials: true,
-    optionSuccessStatus: 200
+	origin: '*',
+	credentials: true,
+	optionSuccessStatus: 200
 }
 
 app.use(cors(corsOptions))
 app.use(express.json())
 
-app.get('/api/valheim', (req, res) => {
-    res.status(200).send(data)
+app.get('/api/boss', (req, res) => {
+	const names = data.map(element => {
+		return { name: element.name, drops: element.drops }
+	})
+
+	if (req.query.name) {
+		const boss = data.find(element => {
+			return element.name === req.query.name
+		})
+		res.status(200).send(boss)
+		return
+	}
+	res.status(200).send(names)
 })
 
-console.log(data);
+app.get('/api/boss/:name', (req, res) => {
+	const boss = req.params.name
+	const query = data.find(element => {
+		return element.name === boss
+	})
+	res.status(200).send(query)
+	return
+})
 
 app.listen(PORT)
