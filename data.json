@@ -1,62 +1,128 @@
 [
 	{
 		"name": "Eikthyr",
+        "description": "His antlers are branches of iron, they crack the rocks and bring down mountains. His hooves are the sound of thunder. His voice a howling gale.",
+        "faction": "Boss",
+        "biome": "Meadows",
+        "drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 500,
+			"damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", "15 Lightning", "15 Lightning"],
+            "abilities": ["Melee", "Lightning bolt", "Stomp"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
+        "resistances": {
+            "very_weak": [],
+            "weak": [],
+            "resistant": [],
+            "very_resistant": [],
+            "immune": ["Stagger"]
+        },
 		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
 		"name": "The Elder",
+        "description": "First of the Forest, King-in-the-Wood, Lord over those who dwell at his feet. His roots will grow where cities once stood, their blood his wine, their flesh his meat.",
+        "faction": "Boss",
+        "biome": "Black Forest",
+        "drops": ["The Elder trophy", "Swamp key", "The Elder Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 2500,
+			"damage": ["35 Pierce, 20 Chop, 20 Pickaxe", "60 Blunt, 1000 Chop, 1000 Pickaxe"],
+            "abilities": ["Vine Shoot", "Stomp", "Spawn Roots"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
-		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+        "resistances": {
+            "very_weak": ["Fire"],
+            "weak": [],
+            "resistant": [],
+            "very_resistant": [],
+            "immune": ["Poison, Spirit, Stagger"]
+        },
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/55/The_Elder.png/revision/latest/scale-to-width-down/350?cb=20220213042753"
 	},
 	{
 		"name": "Bonemass",
+        "description": "Wanderer, look to your feet, that tread upon our tomb. One thousand bones without their meat, will drag you to your doom.",
+        "faction": "Boss",
+        "biome": "Swamp",
+        "drops": ["Bonemass trophy", "Wishbone", "Bonemass Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 5000,
+			"damage": ["280 Blunt, 50 Poison, 1000 Chop, 1000 Pickaxe", "130 Poison"],
+            "abilities": ["Melee", "AoE (unblockable)", "Spawn"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
-		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+        "resistances": {
+            "very_weak": [],
+            "weak": ["Blunt, Frost"],
+            "resistant": ["Slash"],
+            "very_resistant": ["Fire, Pierce"],
+            "immune": ["Poison, Stagger"]
+        },
+		"image": "https://static.wikia.nocookie.net/valheim/images/a/a8/Bonemass_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213061028"
 	},
 	{
 		"name": "Moder",
+        "description": "Black wings across the moon and sun, down from the mountain our mother comes. Her weeping tears will fall like rain, her voice will call us home again.",
+        "faction": "Boss",
+        "biome": "Mountain",
+        "drops": ["Dragon tear", "Moder trophy", "Moder Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 7500,
+			"damage": ["30 Pierce, 200 Frost, 200 Chop, 200 Pickaxe", "110 Slash, 1000 Chop, 1000 Pickaxe", "200 Frost, 200 Chop, 200 Pickaxe"],
+            "abilities": ["Barrage", "Melee", "Breath"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
-		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+        "resistances": {
+            "very_weak": [],
+            "weak": ["Fire"],
+            "resistant": [],
+            "very_resistant": [],
+            "immune": ["Frost, Spirit, Stagger"]
+        },
+		"image": "https://static.wikia.nocookie.net/valheim/images/9/9d/Modor.png/revision/latest/scale-to-width-down/350?cb=20220213072216"
 	},
 	{
 		"name": "Yagluth",
+        "description": "Long ages past, he wore a crown, beneath a blood-red sky. Now naught is left of all he was, but his spirit cannot die.",
+        "faction": "Boss",
+        "biome": "Plains",
+        "drops": ["Yagluth trophy", "Torn spirit", "Yagluth Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 10000,
+			"damage": ["65 Fire, 65 Lightning, 100 Chop, 100 Pickaxe + 100 Fire", "40 Fire 20 Lightning,, 50 Chop, 50 Pickaxe", "40 Blunt, 120 Fire, 50 Chop, 50 Pickaxe"],
+            "abilities": ["Nova", "Fire breath", "Meteors"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
-		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+        "resistances": {
+            "very_weak": [],
+            "weak": [],
+            "resistant": ["Fire"],
+            "very_resistant": ["Pierce, Wet"],
+            "immune": ["Poison, Stagger"]
+        },
+		"image": "https://static.wikia.nocookie.net/valheim/images/1/13/Yagluth_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213081728"
 	},
 	{
 		"name": "The Queen",
+        "description": "Born in armour, mother of many, Queen without crown, ruler beneath.",
+        "faction": "Boss",
+        "biome": "Mistlands",
+        "drops": ["The Queen trophy", "The Queen's Power"],
+
 		"stats": {
-			"Health": 500,
-			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+			"health": 12500,
+			"damage": ["100 Slash", "130 Slash", "150 Pierce", "140 Pierce + 100 Poison"],
+            "abilities": ["Melee (Slashes, Headbutt, Ground Stab)", "Burrow", "Spew", "Roar", "Crawl"]
 		},
-		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
-		"biome": "Meadows",
-		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+        "resistances": {
+            "very_weak": [],
+            "weak": [],
+            "resistant": ["Pierce"],
+            "very_resistant": [],
+            "immune": ["Spirit"]
+        },
+		"image": "https://static.wikia.nocookie.net/valheim/images/f/fb/The_Queen.png/revision/latest/scale-to-width-down/350?cb=20221209082100"
 	}
 ]
