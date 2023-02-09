@@ -1,24 +1,27 @@
 [
-    {
-        "Name": "Eikthyr",
-        "Stats": {
-            "Health": 500,
-            "Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
-        }
-    },
-    {
-        "Name": "The Elder"
-    },
-    {
-        "Name": "Bonemass"
-    },
-    {
-        "Name": "Moder"
-    },
-    {
-        "Name": "Yagluth"
-    },
-    {
-        "Name": "The Queen"
-    }
+	{
+		"Name": "Eikthyr",
+		"Stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
+	},
+	{
+		"Name": "The Elder"
+	},
+	{
+		"Name": "Bonemass"
+	},
+	{
+		"Name": "Moder"
+	},
+	{
+		"Name": "Yagluth"
+	},
+	{
+		"Name": "The Queen"
+	}
 ]
