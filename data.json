@@ -10,18 +10,53 @@
 		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "The Elder"
+		"name": "The Elder",
+		"stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "Bonemass"
+		"name": "Bonemass",
+		"stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "Moder"
+		"name": "Moder",
+		"stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "Yagluth"
+		"name": "Yagluth",
+		"stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	},
 	{
-		"name": "The Queen"
+		"name": "The Queen",
+		"stats": {
+			"Health": 500,
+			"Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+		},
+		"drops": ["Eikthyr trophy", "Hard Antler", "Eikthyr Power"],
+		"biome": "Meadows",
+		"image": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png/revision/latest/scale-to-width-down/350?cb=20220213050225"
 	}
 ]
