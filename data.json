@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "Eikthyr",
+        "Stats": {
+            "Health": 500,
+            "Damage": ["20 Pierce, 1000 Chop, 1000 Pickaxe", ""]
+        }
+    },
+    {
+        "Name": "The Elder"
+    },
+    {
+        "Name": "Bonemass"
+    },
+    {
+        "Name": "Moder"
+    },
+    {
+        "Name": "Yagluth"
+    },
+    {
+        "Name": "The Queen"
+    }
+]
