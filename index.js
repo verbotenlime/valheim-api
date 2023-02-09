@@ -23,13 +23,6 @@ app.get('/api/boss', (req, res) => {
 		return { name: element.name, drops: element.drops }
 	})
 
-	if (req.query.name) {
-		const boss = data.find(element => {
-			return element.name === req.query.name
-		})
-		res.status(200).send(boss)
-		return
-	}
 	res.status(200).send(names)
 })
 
